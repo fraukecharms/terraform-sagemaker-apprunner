@@ -1,6 +1,6 @@
 # First Steps with Terraform
 
-Let's assume you have been through the "click-through experience" of creating the object detection demo in [this repo](https://github.com/fraukecharms/fastapi-sagemaker-compvision) at least once and you now want to automate part of the process with Terraform. Specifically, the first step of deploying the Sagemaker endpoint and the last step of creating an App Runner Service. It is possible to let Terraform create the IAM roles as well, but we will keep it simple here and reuse the ones we've already created manually.
+Let's assume you have been through the "click-through experience" of creating the object detection demo in [this repo](https://github.com/fraukecharms/fastapi-sagemaker-compvision) at least once and you now want to automate part of the process with Terraform. Specifically, the first step of deploying the Sagemaker endpoint and the last step of creating an App Runner Service. 
 
-## Fill In the Template
+## Fill In `terraform.tfvars`
 
